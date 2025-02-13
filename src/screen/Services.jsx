@@ -1,4 +1,4 @@
-import {StyleSheet, Text, View, FlatList, Image} from 'react-native';
+import {StyleSheet, Text, View, FlatList, Image, SafeAreaView} from 'react-native';
 import React from 'react';
 
 const Services = () => {
@@ -7,6 +7,7 @@ const Services = () => {
   return (
     <View style={styles.mainContainer}>
       {/* Header */}
+       <SafeAreaView/>
       <View style={{marginVertical: 10, width: '90%', alignSelf: 'center'}}>
         <Text style={{fontSize: 30, fontWeight: 'bold', color: 'black'}}>
           Services

@@ -6,6 +6,7 @@ import {
   FlatList,
   Image,
   ScrollView,
+  SafeAreaView,
 } from 'react-native';
 import React from 'react';
 import Feather from 'react-native-vector-icons/Feather';
@@ -50,6 +51,7 @@ const Home = () => {
   return (
     <View style={styles.mainContainer}>
       {/* Home Header */}
+      <SafeAreaView/>
       <View style={{marginVertical: 10, width: '90%', alignSelf: 'center'}}>
         <Text style={{fontSize: 30, fontWeight: 'bold', color: 'black'}}>
           Uber

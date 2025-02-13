@@ -1,4 +1,4 @@
-import {Image, ScrollView, StyleSheet, Text, View} from 'react-native';
+import {Image, SafeAreaView, ScrollView, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
@@ -10,6 +10,7 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 const Account = () => {
   return (
     <View style={styles.mainContainer}>
+     <SafeAreaView/>
       {/* Upper Header Section */}
       <View
         style={{

@@ -1,10 +1,11 @@
-import {StyleSheet, Text, View, Image, ScrollView} from 'react-native';
+import {StyleSheet, Text, View, Image, ScrollView, SafeAreaView} from 'react-native';
 import React from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 const Activity = () => {
   return (
     <ScrollView showsVerticalScrollIndicator={false}>
+     <SafeAreaView/>
       <View style={styles.mainContainer}>
         {/* Header */}
         <View style={{marginVertical: 10, width: '90%', alignSelf: 'center'}}>
